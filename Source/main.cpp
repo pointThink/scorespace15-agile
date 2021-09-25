@@ -2,7 +2,6 @@
 #include "raylib.h"
 
 #include "player.h"
-#include "falling.h"
 #include "highscore.h"
 
 enum Screen
