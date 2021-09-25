@@ -1,10 +1,4 @@
 /* Created Day 1 */
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
-
 #include "raylib.h"
 
 #include "player.h"
@@ -135,7 +129,6 @@ void DrawMenu()
 
 	if ( IsKeyPressed( 66 ) )
 	{
-		cout << "Did it work" << endl;
 		currentScreen = ABOUT;
 	}
 	else if ( IsKeyPressed( 65 ) )
